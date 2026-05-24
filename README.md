@@ -1,4 +1,4 @@
-# Local Python Password Manager 
+# Password Manager (Naive Solution)
 A lightweight, secure, and local-first Command Line Interface (CLI) application to safely store, manage, and retrieve your credentials. This utility ensures your passwords remain entirely on your machine, eliminating reliance on third-party cloud hosting.
 
 # Features
@@ -57,3 +57,14 @@ Educational & Local Use Context: This project serves as an excellent demonstrati
 Key & Vault Proximity: Storing the encryptionKey.key right alongside passwords.json in the exact same workspace means that anyone with physical or remote access to your project folder can decrypt your vault. For true security, the key file should ideally be moved to an isolated, secure directory or environment variable.
 
 SHA-256 for Passwords: Plain SHA-256 functions incredibly fast, making it susceptible to modern GPU brute-force attacks. For enterprise-grade master key derivation, memory-hard algorithms like Argon2id or PBKDF2 are recommended.
+
+# Screenshots
+
+<img width="590" height="144" alt="image" src="https://github.com/user-attachments/assets/b125e644-d0a0-42ee-b49e-8717048aa9df" />
+
+<img width="590" height="153" alt="image" src="https://github.com/user-attachments/assets/1301e4c1-7f8a-43e5-b343-c2e783e0065c" />
+
+<img width="590" height="381" alt="image" src="https://github.com/user-attachments/assets/e0800b5a-98b5-40cb-9c77-b4e480ba9b52" />
+
+<img width="522" height="204" alt="image" src="https://github.com/user-attachments/assets/0fa24cf1-c15d-4d09-b748-4873df299d84" />
+
